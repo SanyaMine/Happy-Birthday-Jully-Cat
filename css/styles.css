@@ -1,0 +1,44 @@
+body {
+	color: white;
+	background: black;
+  	margin: 0px;
+}
+
+pre {
+	color:green;
+}
+
+.terminaltext {
+ 	color:green; 
+ 	font-size: 1.6em;
+}
+
+.maintext {
+	float:left;
+  	font-size: 1.5em;
+}
+
+.sideart {
+	float: left;
+	font-size: 1.2em;
+}
+
+.asciart {
+    font-size: 0.7em;
+}
+
+
+.blink {
+  -webkit-animation: blink 0.9s linear infinite;
+  animation: blink 0.9s linear infinite;
+}
+@-webkit-keyframes blink {
+  50% { color: rgb(0, 128, 0); }
+  51% { color: rgba(0, 128, 0, 0); }
+  100% { color: rgba(0, 128, 0, 0); }
+}
+@keyframes blink {
+  50% { color: rgb(0, 128, 0); }
+  51% { color: rgba(0, 128, 0, 0); }
+  100% { color: rgba(0, 128, 0, 0); }
+}
